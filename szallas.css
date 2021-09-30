@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  background-image: url(./hatter.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+#active a {
+  text-shadow: 0 0 2.5px #000000;
+}
+
+#forras {
+  font-family: "Trebuchet MS";
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 10px;
+  padding: 2px 2px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+  margin-left: 0;
+  margin-right: 0;
+  text-shadow: 0 0 3.5px rgb(73, 73, 73);
+}
+
+#forrasdiv {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#forras:hover {
+  color: rgb(248, 248, 248);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: cornflowerblue;
+}
+
+#logokep {
+  width: 50%;
+}
+
+.logo {
+  display: inline;
+  float: left;
+  margin-left: 0px;
+}
+
+.logo a {
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+}
+
+.logo a:hover {
+  color: rgb(248, 248, 248);
+}
+
+.menu {
+  display: inline;
+  float: right;
+}
+
+.menu a {
+  font-family: "Trebuchet MS";
+  font-size: 22.5px;
+  display: block;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 20px;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+.menu a:hover {
+  color: rgb(211, 211, 211);
+}
+
+hr {
+  margin-top: 60px;
+  margin-left: 500px;
+  margin-right: 500px;
+  border: 4px solid rgb(43, 43, 43);
+  border-radius: 6px;
+}
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+  font-family: "Trebuchet MS";
+  color: rgb(219, 219, 219);
+  text-decoration: underline;
+}
+
+#p1 {
+  margin-right: 250px;
+  margin-left: 40px;
+}
+
+.sor1 {
+  display: flex;
+  align-items: center;
+}
+
+.kep1 {
+  margin-right: 140px;
+  margin-left: 100px;
+  border-radius: 8px;
+  border: 0.8px solid black;
+}
+
+#p2 {
+  margin-right: 180px;
+  margin-left: 60px;
+}
+
+.sor2 {
+  display: flex;
+  align-items: center;
+}
+
+.kep2 {
+  margin-left: 100px;
+  border-radius: 8px;
+  border: 0.8px solid black;
+}
+
+#p3 {
+  margin-right: 250px;
+  margin-left: 40px;
+}
+
+.sor3 {
+  display: flex;
+  align-items: center;
+}
+
+.kep3 {
+  margin-right: 140px;
+  border-radius: 8px;
+  border: 0.8px solid black;
+}
+
+p {
+  color: rgb(219, 219, 219);
+  font-family: "Trebuchet MS";
+  padding: 10px;
+  text-align: justify;
+  font-size: 22px;
+  background-color: rgba(0, 0, 0, 0.486);
+  border-bottom: 6px solid black;
+}
